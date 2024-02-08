@@ -78,3 +78,17 @@ main a {
 #services {
 
 }
+
+
+/* Contact */
+#contact {
+    align-items:flex-end;
+    justify-content: space-between;
+    text-align: left;
+    padding: 2% 5%;
+    border: 1px solid;
+}
+
+#contact ul li {
+    display: block;
+}
