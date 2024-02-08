@@ -14,6 +14,16 @@ html {
     display: flex;
 }
 
+.center {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.narrow {
+    margin: 5% 10%;
+}
+
 /* Navbar */
 nav {
     position: fixed;
@@ -36,11 +46,8 @@ nav ul li {
     padding: 0 2vw;
 }
 
-/* banner */
+/* Banner */
 main {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     margin-top: 5vh;
     height: 95vh;
     background-color: black;
@@ -48,9 +55,17 @@ main {
     text-align: center;
 }
 
-main button {
+main a {
     padding: .5rem ;
     border-radius: 10%;
     border: none;
     margin: 2vh;
+    text-decoration: none;
+    color: #000;
+    background-color: hsla(84, 78%, 47%, 0.966);
+}
+
+/* About */
+#about {
+
 }
