@@ -2,6 +2,8 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
+
+    
 }
 
 html {
@@ -17,10 +19,11 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
     width: 100%;
-    border: 1px solid #000;
+    height: 5vh;
     z-index: 100;
+    background-color: white;
+    border: 1px solid;
 }
 
 nav.flex {
@@ -28,11 +31,26 @@ nav.flex {
     align-items: center;
 }
 
-nav ul {
-    list-style: none;
-}
-
 nav ul li {
     display: inline;
-    padding: 1rem 2vw;
+    padding: 0 2vw;
+}
+
+/* banner */
+main {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+    height: 95vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main button {
+    padding: .5rem ;
+    border-radius: 10%;
+    border: none;
+    margin: 2vh;
 }
