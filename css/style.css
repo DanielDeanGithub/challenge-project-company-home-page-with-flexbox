@@ -2,12 +2,15 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-
-    
 }
 
 html {
     font-size: 16px;
+    text-align: center;
+}
+
+p {
+    text-align: left;
 }
 
 .flex {
@@ -22,6 +25,7 @@ html {
 
 .narrow {
     margin: 5% 10%;
+    border: 1px solid;
 }
 
 /* Navbar */
@@ -67,5 +71,10 @@ main a {
 
 /* About */
 #about {
+
+}
+
+/* Services  */
+#services {
 
 }
