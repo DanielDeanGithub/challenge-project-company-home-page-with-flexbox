@@ -190,3 +190,7 @@ main a {
 #contact ul li {
     display: block;
 }
+
+#contact a { 
+    color: #fff;
+}
