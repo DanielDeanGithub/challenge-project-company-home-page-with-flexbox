@@ -96,6 +96,10 @@ main {
     background-color: black;
     color: white;
     text-align: center;
+    background-image: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 main a {
