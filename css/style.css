@@ -19,6 +19,14 @@ img {
     display: block;
 }
 
+h1 {
+    line-height: 3;
+}
+
+h2 {
+    line-height: 2;
+}
+
 .flex {
     display: flex;
 }
@@ -81,8 +89,12 @@ main a {
 }
 
 /* Services  */
-#services {
+#services section {
+    flex-wrap: wrap;
+}
 
+#services figure {
+    height: 100px;
 }
 
 /* Team */
