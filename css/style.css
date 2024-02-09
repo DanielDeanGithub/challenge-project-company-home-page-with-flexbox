@@ -85,6 +85,35 @@ main a {
 
 }
 
+/* Team */
+#team section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+#team div {
+    max-width: 300px;
+    margin: 1rem;
+    border: 1px solid;
+    justify-content: stretch;
+}
+
+#team figure {
+
+}
+
+#team figcaption {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 5%;
+}
+
+#team p {
+    padding: 0 5%;
+    padding-bottom: 5%;
+}
+
 
 /* Contact */
 #contact {
