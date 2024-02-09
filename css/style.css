@@ -27,7 +27,7 @@ html {
     text-align: center;
     font-family: "Share Tech Mono", Helvetica, sans-serif;  
     scroll-padding-top: calc(5vh + 5%);
-     
+    user-select: none; 
 }
 
 p {
