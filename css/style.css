@@ -26,7 +26,7 @@ html {
     font-size: 16px;
     text-align: center;
     font-family: "Share Tech Mono", Helvetica, sans-serif;  
-    scroll-padding-top: 5vh;
+    scroll-padding-top: 100px;
     user-select: none;
     scroll-behavior: smooth;
 }
@@ -76,7 +76,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    height: 5vh;
+    height: 100px;
     z-index: 100;
     background-color: white;
     border: 1px solid;
@@ -92,9 +92,39 @@ nav ul li {
     padding: 0 2vw;
 }
 
+#logo {
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem;
+}
+
+.logo-container {
+    position: relative;
+}
+
+.logo-container .logo-a {
+
+    font-size: 3rem;
+
+}
+
+.logo-container .logo-b {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+#logo p {
+    transform: translate(5%,-35%);
+}
+
+
+
 /* Banner */
 main {
-    height: 95vh;
+    height: calc(100vh - 75px);
     background-color: black;
     color: white;
     text-align: center;
@@ -102,7 +132,7 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 5vh;
+    margin-top: 100px;
 }
 
 main a {
