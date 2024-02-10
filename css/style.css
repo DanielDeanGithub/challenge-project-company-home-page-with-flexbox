@@ -157,10 +157,11 @@ main a {
 /* Services  */
 #services section {
     flex-wrap: wrap;
+    width: 100%;
 }
 
-#services figure {
-    height: 100px;
+#services img {
+    height: 200px;
 }
 
 /* Team */
