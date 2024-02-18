@@ -1,8 +1,8 @@
+#### Objective provided by Codecademy
+
 ### WEB DEVELOPMENT FOUNDATIONS
 
 # Challenge Project: Company Home Page with Flexbox
-
-#### Objective provided by Codecademy:
 
 # Overview
 
